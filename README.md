@@ -1,6 +1,6 @@
 # npmtest-elegant-spinner
 
-#### basic test coverage for  elegant-spinner (v1.0.1)  [![npm package](https://img.shields.io/npm/v/npmtest-elegant-spinner.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-elegant-spinner) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-elegant-spinner.svg)](https://travis-ci.org/npmtest/node-npmtest-elegant-spinner)
+#### basic test coverage for  [elegant-spinner (v1.0.1)](https://github.com/sindresorhus/elegant-spinner)  [![npm package](https://img.shields.io/npm/v/npmtest-elegant-spinner.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-elegant-spinner) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-elegant-spinner.svg)](https://travis-ci.org/npmtest/node-npmtest-elegant-spinner)
 
 #### Elegant spinner for interactive CLI apps
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-elegant-spinner/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-elegant-spinner/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-elegant-spinner/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-elegant-spinner/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-elegant-spinner/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-elegant-spinner/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-elegant-spinner/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-elegant-spinner/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-elegant-spinner/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-elegant-spinner/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-elegant-spinner/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-elegant-spinner/build/coverage.html/index.html)
 
@@ -35,24 +35,32 @@
 ```json
 
 {
-    "name": "elegant-spinner",
-    "version": "1.0.1",
-    "description": "Elegant spinner for interactive CLI apps",
-    "license": "MIT",
-    "repository": "sindresorhus/elegant-spinner",
     "author": {
         "name": "Sindre Sorhus",
         "url": "sindresorhus.com"
     },
+    "bugs": {
+        "url": "https://github.com/sindresorhus/elegant-spinner/issues"
+    },
+    "dependencies": {},
+    "description": "Elegant spinner for interactive CLI apps",
+    "devDependencies": {
+        "ava": "0.0.4",
+        "xo": "*"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "db043521c95d7e303fd8f345bedc3349cfb0729e",
+        "tarball": "https://registry.npmjs.org/elegant-spinner/-/elegant-spinner-1.0.1.tgz"
+    },
     "engines": {
         "node": ">=0.10.0"
-    },
-    "scripts": {
-        "test": "xo && node test.js"
     },
     "files": [
         "index.js"
     ],
+    "gitHead": "669a9813b4ee7d459b982dd623e72672d9f4f114",
+    "homepage": "https://github.com/sindresorhus/elegant-spinner",
     "keywords": [
         "ansi",
         "terminal",
@@ -71,10 +79,23 @@
         "loiter",
         "interactive"
     ],
-    "devDependencies": {
-        "ava": "0.0.4",
-        "xo": "*"
-    }
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "sindresorhus"
+        }
+    ],
+    "name": "elegant-spinner",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sindresorhus/elegant-spinner.git"
+    },
+    "scripts": {
+        "test": "xo && node test.js"
+    },
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
